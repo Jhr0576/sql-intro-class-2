@@ -14,4 +14,6 @@
 -- | 2020 | 30       |
 -- +------+----------+
 
-
+Select year, Count(*)
+From teams 
+Group by year
